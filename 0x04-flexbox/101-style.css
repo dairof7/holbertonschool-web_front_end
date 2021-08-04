@@ -20,6 +20,7 @@ body {
 	align-items: center;
 	height: 300px;
 	width: 65%;
+	align-items: baseline
 }
 
 .box {
@@ -31,49 +32,38 @@ body {
 	word-break: break-all;
 }
 
-.box:hover {
-	cursor: pointer;
-	-webkit-animation:spin 4s linear infinite;
-	-moz-animation:spin 4s linear infinite;
-	animation:spin 4s linear infinite;
-}
-
 .box:focus {
 	background-color: black;
 }
 
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
 .container .box:nth-child(1) {
-	background-color: #f9c80e;
+	background-color: #1FCD6D;
 	flex-grow: 1;
 	height: 10vh;
 	font-size: 2em;
 }
 
 .container .box:nth-child(2) {
-	background-color: #f86624;
+	background-color: #2D98DE;
 	flex-grow: 2;
 	height: 20vh;
 	font-size: 4em;
 }
 
 .container .box:nth-child(3) {
-	background-color: #ea3546;
+	background-color: #344A61;
 	flex-grow: 3;
 	height: 30vh;
 	font-size: 7em;
 }
 .container .box:nth-child(4) {
-	background-color: #662e9b;
+	background-color: #9D55B9;
 	flex-grow: 2;
 	height: 20vh;
 	font-size: 4em;
 }
 .container .box:nth-child(5) {
-	background-color: #43bccd;
+	background-color: #E67D0F;
 	flex-grow: 1;
 	height: 10vh;
 	font-size: 2em;
